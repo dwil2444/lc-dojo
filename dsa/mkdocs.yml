@@ -15,7 +15,10 @@ extra_javascript:
 
 nav:
   - Home: index.md
-  - Dynamic Programming: dp.md
+  - Dynamic Programming:
+      - Overview: dp.md
+      - Longest Palindromic Substring: dp/lps.md
+      - Pascal's Triangle: dp/pascal.md
   - Graphs: graph.md
   - Recursion & Backtracking: rb.md
   - Sliding Window/ Two Pointers: tp.md

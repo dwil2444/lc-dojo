@@ -1,7 +1,9 @@
-def Solution(n: int):
+def Solution(n: int) -> int:
     """
-    :param n:
-    :return:
+    :param n: number of steps
+
+    :return: number of distinct ways 
+            to reach the nth step
     """
     if n <= 1:
         return 1
